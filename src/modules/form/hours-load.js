@@ -15,11 +15,11 @@ export function hoursLoad({date,dailySchedules}){
 
  
   const opening = openingHours.map((hour) => {
-
+   
     const [scheduleHour] = hour.split(":")
     
     const isHourPast = dayjs(date).add(scheduleHour, "hour").isBefore(dayjs())
-
+  
     const available = !unavailableHours.includes(hour)  &&  !isHourPast   
 
     return{

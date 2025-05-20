@@ -1,4 +1,4 @@
-import { scheduleFechByDay } from "../../services/schedule-fetch-by-day.js"
+import { scheduleFetchByDay } from "../../services/schedule-fetch-by-day.js"
 import { hoursLoad } from "../form/hours-load.js";
 import { schedulesShow } from "../schedules/show.js"
 
@@ -10,7 +10,7 @@ export async function schedulesDay(){
 
   const date = selectedDate.value
 
-  const dailySchedules = await scheduleFechByDay({ date })
+  const dailySchedules = await scheduleFetchByDay({ date })
   
   schedulesShow({ dailySchedules })
   
