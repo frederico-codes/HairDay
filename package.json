@@ -13,8 +13,7 @@
   "description": "",
   "dependencies": {
     "dayjs": "^1.11.10",
-    "json-server": "^0.17.3"
-
+    "json-server": "^1.0.0-alpha.21"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",

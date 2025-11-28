@@ -24,7 +24,7 @@ export function hoursLoad({date,dailySchedules}){
 
     return{
       hour,
-      available,
+      available
     }
   })
 
