@@ -105,6 +105,35 @@ O layout está disponível no Figma:
 
 É necessário ter conta no Figma.
 
+---
+
+## ▶️ Como iniciar o sistema
+
+Para rodar o projeto localmente, siga os passos abaixo:
+
+1. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+2. Inicie a API fake local (JSON Server):
+   ```bash
+   npm run server
+   ```
+   A API ficará disponível em: http://localhost:3333
+
+3. Em outro terminal, inicie o frontend:
+   ```bash
+   npm run dev
+   ```
+   A aplicação ficará disponível em: http://localhost:8080
+
+> Se preferir, você também pode usar o comando de build para gerar os arquivos estáticos:
+> ```bash
+> npm run build
+> ```
+
+---
 
 📝 Licença
 
